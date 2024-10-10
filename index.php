@@ -20,5 +20,5 @@ require 'plantilla.php';
 
 $html = ob_get_clean();
 $html2pdf->writeHTML($html);
-$html2pdf->output(__DIR__ . '/' . '/pdf_creado.pdf', 'FI');
+// $html2pdf->output(__DIR__ . '/' . '/pdf_creado.pdf', 'FI');
 
